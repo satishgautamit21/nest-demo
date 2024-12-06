@@ -1,0 +1,15 @@
+# ------------------------------------------------------
+# THIS FILE WAS AUTOMATICALLY GENERATED (DO NOT MODIFY)
+# ------------------------------------------------------
+
+type Post {
+  id: Int!
+  title: String!
+  body: String!
+  userId: Int!
+}
+
+type Query {
+  getAllPosts: [Post!]!
+  getPostById(id: Int!): Post!
+}
